@@ -420,8 +420,92 @@ h1 {
        align-self: baseline;
     }
   }
-.img-box-3{        max-width: 100%;
+.img-box-3{max-width: 100%;
         vertical-align: middle;
         display: inline-block;
         width: 296px;
+}
+
+.title-top-ready {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+  
+        max-width: 640px;
+        margin: 128px auto 64px;
+        padding: 0 16px;
+      }
+      
+      .tile-ready{
+        font-family: GT Walsheim, sans-serif;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 64px;
+        margin-bottom: 16px
+      }
+      
+      .title-ready + .paragraph-ready {
+        max-width: 400px;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 auto;
+      }
+
+
+
+@media (max-width: 780px) {
+  .title-top-ready {
+    margin-top: 200%;
+  }
+}
+#container-2{
+  height:100vh;
+  width: 450px;
+
+}
+
+#imagem-ready{
+  padding-top: 60px;
+  width: 400px;
+  float: right;
+}
+#texto-box-2,
+#paragrafo-box-2{
+  margin-left: 10px;
+}
+#texto-box-2{
+  margin-top: 50px;
+}
+/*
+@media (max-width: 780px){
+  #container-2{
+    height:50vh;
+    align-self: center;
+  }
+  
+  #imagem-ready{
+    padding-top: 60px;
+    width: 400px;
+    float: right;
+  }
+  #texto-box-2,
+  #paragrafo-box-2{
+    margin-left: 10px;
+  }
+  #texto-box-2{
+    margin-top: 50px;
+  }
+}*/
+
+#container-3{
+  align-self: center;
+}
+#img-2-travel{
+  float: right;
+  width: 80%;
+  margin-left: -100px;
+  padding-left: -20px;
+}
+#img-box-1{
+  padding-left: -20px;
 }
