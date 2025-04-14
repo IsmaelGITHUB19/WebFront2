@@ -162,10 +162,10 @@
 
 
       
-        <div style="margin-top:300px ;" class="feeling-ready">
+        <div style="margin-top:100px ;" class="feeling-ready">
           <div class="title-top-ready">
-              <h1 class="title-ready" style="font-weight:bold;">Leave every meeting feeling Ready</h1>
-              <p style="font-size: 18px;">
+              <h1 class="title-top-text-allin" style="font-weight:bold;">Leave every meeting feeling Ready</h1>
+              <p class="paragrafo-allin" style="font-size: 18px;">
                 Never lose track of a decision or forget a follow up. Ready <br> keeps you and your team organized before, during, and <br> after every meeting.
               </p>
           </div>
@@ -173,8 +173,8 @@
          
         <div class="container" id="meeting-container">
           <div class="esquerda" style="width:300px;">
-            <div class="box"  style="height: 50%; margin-top: 10%; background-image: url(https://ready.so/images/Leave-BG-1.webp);border-radius: 32px; " >
-                  <h3 style="font-family: GT America Standard, sans-serif; font-weight: 500;" class="title-box" >
+            <div class="box"  style="height: 50%; width: 90%; align-self: flex-end ;margin-top: 10%; background-image: url(https://ready.so/images/Leave-BG-1.webp);border-radius: 32px; " >
+                  <h3 style="font-family: GT America Standard, sans-serif; font-weight: 500; " class="title-box" >
                              Time Travel
                   </h3>
                    <p style="color: #fff; font-size: 16px; line-height: 24px;" class="paragrafo-box"> 
@@ -185,7 +185,7 @@
                     <img src="https://ready.so/images/Time-Travel.webp" style="border: 32px;" class="img-box-1" id="img-box-1">
                   </div>                
             </div>
-            <div class="box-2" id="container-2" style="background-image: url(https://ready.so/images/Leave-BG-3.webp);  border-radius: 32px; align-self: flex-end;" >
+            <div class="box-2" id="container-2" style="background-image: url(https://ready.so/images/Leave-BG-3.webp);  border-radius: 32px; align-self: flex-end; overflow: hidden;" >
                 <h3 style="font-family: GT America Standard, sans-serif; font-weight: 500;" class="title-box-2"  id="texto-box-2">
                   Threads
                 </h3>
@@ -193,7 +193,7 @@
                   Ready organizes everything for you in <br> Threads, never worry about folders again.
               </p>
               <div class="image-container-2" id="imagem-ready">
-                  <img src="https://ready.so/images/Threads.webp" style="padding-left: 10px;" id="imagem-" class="img-box-2">
+                  <img src="https://ready.so/images/Threads.webp" style="padding-left: 10px;" id="imagem-threads" class="img-box-2">
               </div>
             </div>
           </div>
@@ -211,9 +211,59 @@
             </div>
           </div>
         </div>
-        <div >
-
+        <div class="All-in"  style="background: radial-gradient(circle farthest-side at 50% 100%, #351caf, #f5f4f100 80%);">
+            <div class="all-in-text">
+              <h3 class="title-top-text-allin">
+                All in a calendar, <br>
+                that's a joy to use
+              </h3>
+              <p class="paragrafo-allin"> 
+                An entire meeting collaboration platform built inside a fast <br> and modern calendar you and your team will love.
+              </p>
+            </div>
+            <div style="text-align: center;">
+              <div class="destaque">
+                Desktop App
+               </div>
+               <div class="destaque">
+                Keyboard Shortcuts
+               </div>
+               <div class="destaque">
+                Dark & Light Mode
+               </div>
+               <br>
+               <div class="destaque">
+                Google Calendar Sync
+               </div>
+               <div class="destaque ">
+                Notifications
+               </div>
+            </div>
+            <div class="img-container-allin" style="margin-top:30px;">
+              <img class="img-allin" src="https://ready.so/images/Calendar_Footer.webp" alt="" style="will-change: transform; transform: translate3d(0px, 0vw, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; width: 1280px;max-width:100%;">
+            </div>
+            <div class="icon-container">
+                <div class="icon">
+                  <img src="https://ready.so/images/App-Icon.webp" alt="">
+                </div>
+            </div>
         </div>
+
+        <div class="get-ready">
+            <h1 class="title-top-text-allin">
+              It's time. <br>
+              Get Ready
+            </h1>
+            <p class="paragrafo-allin">
+              Your calendar has the power to shape your day. And life is too damn short for bad meetings. 
+              <br>
+              <br>
+              Get Ready, and let’s shape the future of meetings and calendars, together.
+            </p>
+        </div>
+        <footer>
+          
+        </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
