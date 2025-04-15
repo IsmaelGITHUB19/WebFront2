@@ -255,15 +255,31 @@
               Get Ready
             </h1>
             <p class="paragrafo-allin">
-              Your calendar has the power to shape your day. And life is too damn short for bad meetings. 
+              Your calendar has the power to shape your day. And life is <br> too damn short for bad meetings. 
               <br>
               <br>
-              Get Ready, and let’s shape the future of meetings and calendars, together.
+              Get Ready, and let’s shape the future of meetings and <br> calendars, together.
             </p>
         </div>
         <footer>
-          
+          <div style=" display: flex; justify-content: space-between; align-items: center; padding: 20px; max-width: 1500px; margin: 0 auto;padding-top: 100px ; padding-bottom: 50px;" class="footer-div">
+            
+            <div class="letras-footer" style="color: rgb(0, 0, 0); list-style: none;">
+              <li>
+                Ready — Made Remotely <br>
+                <a href="#" style="color: rgb(0, 0, 0);" class="link-footer">Privacy Policy</a> 
+                <a href="#" style="color: rgb(0, 0, 0);" class="link-footer">Terms of Service</a>
+              </li>
+            </div>  
+            
+            <div class="Social-media">
+              <a href="https://x.com/readycalendar"><img src="https://ready.so/images/twitter.svg" alt="Twitter" style="margin-right: 10px;"></a>
+              <a href=""><img src="https://ready.so/images/linkedin.svg" alt="LinkedIn"></a>
+            </div>
+        
+          </div>
         </footer>
+        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
