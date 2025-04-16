@@ -164,7 +164,7 @@
       
         <div style="margin-top:100px ;" class="feeling-ready">
           <div class="title-top-ready">
-              <h1 class="title-top-text-allin" style="font-weight:bold;">Leave every meeting feeling Ready</h1>
+              <h1 class="title-top-text-allin" id="tite-feeling-ready" style="font-weight:bold;">Leave every meeting feeling Ready</h1>
               <p class="paragrafo-allin" style="font-size: 18px;">
                 Never lose track of a decision or forget a follow up. Ready <br> keeps you and your team organized before, during, and <br> after every meeting.
               </p>
@@ -173,7 +173,7 @@
          
         <div class="container" id="meeting-container">
           <div class="esquerda" style="width:300px;">
-            <div class="box"  style="height: 50%; width: 90%; align-self: flex-end ;margin-top: 10%; background-image: url(https://ready.so/images/Leave-BG-1.webp);border-radius: 32px; " >
+            <div class="box" id="time-travel-box"  style="height: 50%; width: 90%; align-self: flex-end ;margin-top: 10%; background-image: url(https://ready.so/images/Leave-BG-1.webp);border-radius: 32px; " >
                   <h3 style="font-family: GT America Standard, sans-serif; font-weight: 500; " class="title-box" >
                              Time Travel
                   </h3>
@@ -213,7 +213,7 @@
         </div>
         <div class="All-in"  style="background: radial-gradient(circle farthest-side at 50% 100%, #351caf, #f5f4f100 80%);">
             <div class="all-in-text">
-              <h3 class="title-top-text-allin">
+              <h3 class="title-top-text-allin" id="all-in-calendar">
                 All in a calendar, <br>
                 that's a joy to use
               </h3>
@@ -242,15 +242,10 @@
             <div class="img-container-allin" style="margin-top:30px;">
               <img class="img-allin" src="https://ready.so/images/Calendar_Footer.webp" alt="" style="will-change: transform; transform: translate3d(0px, 0vw, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; width: 1280px;max-width:100%;">
             </div>
-            <div class="icon-container">
-                <div class="icon">
-                  <img src="https://ready.so/images/App-Icon.webp" alt="">
-                </div>
-            </div>
         </div>
 
         <div class="get-ready">
-            <h1 class="title-top-text-allin">
+            <h1 class="title-top-text-allin" id="get-ready-text">
               It's time. <br>
               Get Ready
             </h1>
