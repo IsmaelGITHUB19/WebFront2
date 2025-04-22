@@ -1,615 +1,643 @@
-
 .body-sand {
-    background: #f5f4f1 url(../images/Sand-Texture.webp) 0 0 scroll;
-    font-family: 'GT America Standard', sans-serif;
-    font-weight: 400;
-      margin: 0;
-      padding: 0;
-      
+  background: #f5f4f1 url(../images/Sand-Texture.webp) 0 0 scroll;
+  font-family: 'GT America Standard', sans-serif;
+  font-weight: 400;
+    margin: 0;
+    padding: 0;
+    
 }
 
 .navigation {
-    z-index: 9999;
-    backdrop-filter: blur(16px);
-    background-image: url(../images/Transparent-Texture.webp);
-    border-bottom: 1px solid #0001;
-    justify-content: center;
-    align-items: center;
-    height: 48px;
-    padding: 0 16px;
-    display: flex;
-    position: sticky;
-    top: 0;
+  z-index: 9999;
+  backdrop-filter: blur(16px);
+  background-image: url(../images/Transparent-Texture.webp);
+  border-bottom: 1px solid #0001;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  padding: 0 16px;
+  display: flex;
+  position: sticky;
+  top: 0;
 }
 
 .avatars {
-    margin-right: 16px;
-    display: flex;
+  margin-right: 16px;
+  display: flex;
 }
 
 img {
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
-    border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  border: 0;
 }
 
 .hero {
-    justify-content: center;
-    padding: 128px 16px 0;
-    display: block;
+  justify-content: center;
+  padding: 128px 16px 0;
+  display: block;
 }
 
 .hero-heading-text,
 .title-carrosel {
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 640px;
-    margin: 0 auto;
-    display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 640px;
+  margin: 0 auto;
+  display: flex;
 }
 
 .hero-title-container {
-    width: 100%;
-    max-width: 540px;
-    margin-bottom: 32px;
-    position: relative;
+  width: 100%;
+  max-width: 540px;
+  margin-bottom: 32px;
+  position: relative;
 }
 
 .hero-subtext {
-    color: #7366fe;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    width: 100%;
-    margin-bottom: 16px;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 16px;
+  color: #7366fe;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 100%;
+  margin-bottom: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
 }
 
 .heading {
-    z-index: 3;
-    margin-bottom: 0;
-    font-family: 'GT America Standard', sans-serif;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 64px;
-    position: relative;
+  z-index: 3;
+  margin-bottom: 0;
+  font-family: 'GT America Standard', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  position: relative;
 }
 
 h1 {
-    margin: 0.67em 0;
-    font-family: 'GT America Standard', sans-serif;
-    font-size: 2em;
-    font-weight: bold;
-    line-height: 1.2;
+  margin: 0.67em 0;
+  font-family: 'GT America Standard', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.2;
 }
 
 .paragraph {
-    max-width: 400px;
-    margin-bottom: 0;
-    font-size: 18px;
-    line-height: 24px;
+  max-width: 400px;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .calendar {
-    border-radius: 16px;
-    min-height: 600px;
-    box-shadow: 0 16px 128px #0001, 0 1px 1px #0001;
+  border-radius: 16px;
+  min-height: 600px;
+  box-shadow: 0 16px 128px #0001, 0 1px 1px #0001;
 }
 
 .video-container {
-    border-radius: 16px;
-    max-width: 714px;
-    margin: 0 20%;
-    position: absolute;
-    overflow: visible;
-    box-shadow: 0 1px 128px #0003;
+  border-radius: 16px;
+  max-width: 714px;
+  margin: 0 20%;
+  position: absolute;
+  overflow: visible;
+  box-shadow: 0 1px 128px #0003;
 }
 
 .hero-container {
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 1280px;
-    margin: 96px auto;
-    display: flex;
-    position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  margin: 96px auto;
+  display: flex;
+  position: relative;
 }
 
 .sub-title {
-    margin: 50px auto 24px;
-    z-index: 2;
-    text-align: center;
-    font-family: 'GT America Standard', sans-serif;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 56px;
-    position: relative;
+  margin: 50px auto 24px;
+  z-index: 2;
+  text-align: center;
+  font-family: 'GT America Standard', sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  position: relative;
 }
 
 /* Responsivo */
 @media screen and (max-width: 991px) {
-    .calendar {
-        border-radius: 12px;
-        min-height: auto;
-    }
-    .hero-container {
-        margin-top: 96px;
-        margin-bottom: 80px;
-    }
+  .calendar {
+      border-radius: 12px;
+      min-height: auto;
+  }
+  .hero-container {
+      margin-top: 96px;
+      margin-bottom: 80px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .heading {
-        font-size: 56px;
-    }
-    .calendar {
-        border-radius: 8px;
-    }
-    .hero-container {
-        margin-bottom: 64px;
-    }
+  .heading {
+      font-size: 56px;
+  }
+  .calendar {
+      border-radius: 8px;
+  }
+  .hero-container {
+      margin-bottom: 64px;
+  }
 }
 
 @media screen and (max-width: 479px) {
-    .hero {
-        padding: 48px 0 32px;
-    }
-    .hero-subtext {
-        margin-bottom: 8px;
-        font-size: 10px;
-    }
-    .heading {
-        font-size: 32px;
-        line-height: 32px;
-    }
-    .calendar {
-        border-radius: 4px;
-    }
-    .hero-container {
-        margin: 56px 0 24px;
-    }
+  .hero {
+      padding: 48px 0 32px;
+  }
+  .hero-subtext {
+      margin-bottom: 8px;
+      font-size: 10px;
+  }
+  .heading {
+      font-size: 32px;
+      line-height: 32px;
+  }
+  .calendar {
+      border-radius: 4px;
+  }
+  .hero-container {
+      margin: 56px 0 24px;
+  }
 }
- .paragrafo-carrosel{
-        max-width: 400px;
-        margin-bottom: 0;
-        font-size: 18px;
-        line-height: 24px;
+.paragrafo-carrosel{
+      max-width: 400px;
+      margin-bottom: 0;
+      font-size: 18px;
+      line-height: 24px;
+  }
+  .title-top-text-container {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 640px;
+      margin: 128px auto 64px;
+      padding: 0 16px;
     }
-    .title-top-text-container {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        max-width: 640px;
-        margin: 128px auto 64px;
-        padding: 0 16px;
-      }
-      
-      .title-top-text {
-        font-family: 'GT America Standard', sans-serif;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 64px;
-        margin-bottom: 16px;
-      }
-      
-      .title-top-text + .paragraph {
-        max-width: 400px;
-        font-size: 18px;
-        line-height: 24px;
-        margin: 0 auto;
-      }
+    
+    .title-top-text {
+      font-family: 'GT America Standard', sans-serif;
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 64px;
+      margin-bottom: 16px;
+    }
+    
+    .title-top-text + .paragraph {
+      max-width: 400px;
+      font-size: 18px;
+      line-height: 24px;
+      margin: 0 auto;
+    }
 /*lllllllllllllllllllllllllllllllllllllllllllllllllllll*/      
 
 .title-meeting {
-    font-family: 'GT Walsheim', sans-serif;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 64px;
-    margin-bottom: 16px;
-    margin-top: 150px;
-  
-    padding-left: 300px;
-    padding-right: 30px; /* isso evita corte no lado direito */
-    text-align: left;
-    max-width: 100%;
-    box-sizing: border-box; /* ESSENCIAL para respeitar o width */
-    overflow-wrap: break-word; /* evita palavras gigantes de quebrar o layout */
-  }
-  @media (max-width: 1024px) {
-    .title-meeting {
-      padding-left: 100px;
-      font-size: 48px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .title-meeting {
-      padding-left: 30px;
-      font-size: 36px;
-      line-height: 44px;
-      margin-top: 80px;
-    }
-  }
-  
-  
-  .paragraph-title-meeting{
-    font-size: 18px;
-  line-height: 28px;
-  color: #555;
+  font-family: 'GT Walsheim', sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 16px;
+  margin-top: 150px;
 
   padding-left: 300px;
-  padding-right: 30px;
-  max-width: 100%;
-  box-sizing: border-box;
-  margin-bottom: 40px;
+  padding-right: 30px; /* isso evita corte no lado direito */
   text-align: left;
-    
-  }
-  @media (max-width: 1024px) {
-    .paragraph-title-meeting{
-      padding-left: 100px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .paragraph-title-meeting{
-      padding-left: 30px;
-      font-size: 16px;
-      line-height: 24px;
-    }
-  }
-  
-  .container {
-    display: flex;
-    height: 100vh;
-    gap: 10px;
-    padding: 30px;
-  }
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-      padding: 20px;
-    }
-
-    .esquerda,
-    .direita{
-      width: 100%;
-    }
+  max-width: 100%;
+  box-sizing: border-box; /* ESSENCIAL para respeitar o width */
+  overflow-wrap: break-word; /* evita palavras gigantes de quebrar o layout */
 }
-  .esquerda {
-    display: flex;
-    flex-direction: column;
-    flex: 2;
-    gap: 10px;
+@media (max-width: 1024px) {
+  .title-meeting {
+    padding-left: 100px;
+    font-size: 48px;
   }
+}
 
-  .direita {
-    flex: 1;
+@media (max-width: 768px) {
+  .title-meeting {
+    padding-left: 30px;
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 80px;
   }
+}
 
-  .box {
-    flex: 1;
-  }
-  .title-box {
-    font-family: 'GT America Standard', sans-serif;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 36px;
+
+.paragraph-title-meeting{
+  font-size: 18px;
+line-height: 28px;
+color: #555;
+
+padding-left: 300px;
+padding-right: 30px;
+max-width: 100%;
+box-sizing: border-box;
+margin-bottom: 40px;
+text-align: left;
   
-    padding-left: 50px; /* diminuído aqui */
-    padding-right: 30px;
-    box-sizing: border-box;
-    color: #fff;
-    margin-top: 60px;
-    margin-bottom: 16px;
+}
+@media (max-width: 1024px) {
+  .paragraph-title-meeting{
+    padding-left: 100px;
   }
-  .paragrafo-box {
-    color: #fff;
+}
+
+@media (max-width: 768px) {
+  .paragraph-title-meeting{
+    padding-left: 30px;
     font-size: 16px;
     line-height: 24px;
-  
-    padding-left: 50px; /* igual ao title */
-    padding-right: 30px;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    max-width: 100%;
-    overflow-wrap: break-word;
   }
-  @media (max-width: 1024px) {
-    .title-box,
-    .paragrafo-box {
-      padding-left: 80px;
-    }
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  gap: 10px;
+  padding: 30px;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
   }
-  
-  @media (max-width: 768px) {
-    .title-box,
-    .paragrafo-box {
-      padding-left: 20px;
-    }
-  
-    .title-box {
-      font-size: 22px;
-      line-height: 30px;
-      margin-top: 40px;
-    }
-  
-    .paragrafo-box {
-      font-size: 14px;
-      line-height: 22px;
-    }
+
+  .esquerda,
+  .direita{
+    width: 100%;
   }
-  .image-container{
-    height: min-content;
+}
+.esquerda {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  gap: 10px;
+}
+
+.direita {
+  flex: 1;
+}
+
+.box {
+  flex: 1;
+}
+.title-box {
+  font-family: 'GT America Standard', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+
+  padding-left: 50px; /* diminuído aqui */
+  padding-right: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  margin-top: 60px;
+  margin-bottom: 16px;
+}
+.paragrafo-box {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+
+  padding-left: 50px; /* igual ao title */
+  padding-right: 30px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+@media (max-width: 1024px) {
+  .title-box,
+  .paragrafo-box {
+    padding-left: 80px;
   }
-  /*@media screen and (max-width: 479px)
+}
+
+@media (max-width: 768px) {
+  .title-box,
+  .paragrafo-box {
+    padding-left: 20px;
+  }
+
+  .title-box {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 40px;
+  }
+
+  .paragrafo-box {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+.image-container{
+  height: min-content;
+}
+/*@media screen and (max-width: 479px)
 .image-18 {
-    width: 200%;
-    max-width: none;
-    position: relative;
+  width: 200%;
+  max-width: none;
+  position: relative;
 }*/
 .title-box-2 {
-    font-family: 'GT America Standard', sans-serif;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 36px;
-  
-    padding-left: 50px; /* diminuído aqui */
-    padding-right: 30px;
-    box-sizing: border-box;
-    color: #fff;
-    margin-top: 60px;
-    margin-bottom: -10px;
-  }
-  .paragrafo-box-2 {
-    color: #fff;
-    font-size: 16px;
-    line-height: 24px;
-  
-    padding-left: 50px; /* igual ao title */
-    padding-right: 30px;
-    box-sizing: border-box;
-    margin-top:15px ;
-    margin-bottom: -50px;
-    max-width: 100%;
-    overflow-wrap: break-word;
-  }
-  @media (max-width: 1024px) {
-    .title-box-2,
-    .paragrafo-box-2 {
-      padding-left: 80px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .title-box-2,
-    .paragrafo-box-2 {
-      padding-left: 20px;
-    }
-  
-    .title-box-2 {
-      font-size: 22px;
-      line-height: 30px;
-      margin-top: 40px;
-    }
-  
-    .paragrafo-box-2 {
-      font-size: 14px;
-      line-height: 22px;
+  font-family: 'GT America Standard', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
 
-    }
+  padding-left: 50px; /* diminuído aqui */
+  padding-right: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  margin-top: 60px;
+  margin-bottom: -10px;
+}
+.paragrafo-box-2 {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+
+  padding-left: 50px; /* igual ao title */
+  padding-right: 30px;
+  box-sizing: border-box;
+  margin-top:15px ;
+  margin-bottom: -50px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+@media (max-width: 1024px) {
+  .title-box-2,
+  .paragrafo-box-2 {
+    padding-left: 80px;
   }
- 
+}
+
+@media (max-width: 768px) {
+  .title-box-2,
+  .paragrafo-box-2 {
+    padding-left: 20px;
+  }
+
+  .title-box-2 {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 40px;
+  }
+
+  .paragrafo-box-2 {
+    font-size: 14px;
+    line-height: 22px;
+
+  }
+}
+
+.box-2 {
+  width: 80%;
+  height: 50%;
+  background-color: #6873a5;
+  background-position: 0 0;
+  background-size: cover;
+}
+@media (max-width: 768px) {
   .box-2 {
-    width: 80%;
-    height: 50%;
-    background-color: #6873a5;
-    background-position: 0 0;
-    background-size: cover;
+      align-self: start;
+    width: 100%;
+    height: 300px;
   }
-  @media (max-width: 768px) {
-    .box-2 {
-        align-self: start;
-      width: 100%;
-      height: 300px;
-    }
-    .img-box-2{
-       align-self: baseline;
-    }
+  .img-box-2{
+     align-self: baseline;
   }
+}
 .img-box-3{max-width: 100%;
-        vertical-align: middle;
-        display: inline-block;
-        width: 296px;
+      vertical-align: middle;
+      display: inline-block;
+      width: 296px;
 }
 
 .title-top-ready {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-  
-        max-width: 640px;
-        margin: 128px auto 64px;
-        padding: 0 16px;
-      }
-      
-      .tile-ready{
-        font-family: 'GT America Standard', sans-serif;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 64px;
-        margin-bottom: 16px
-      }
-      
-      .title-ready + .paragraph-ready {
-        max-width: 400px;
-        font-size: 18px;
-        line-height: 24px;
-        margin: 0 auto;
-      }
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+
+      max-width: 640px;
+      margin: 128px auto 64px;
+      padding: 0 16px;
+    }
+    
+    .tile-ready{
+      font-family: 'GT America Standard', sans-serif;
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 64px;
+      margin-bottom: 16px
+    }
+    
+    .title-ready + .paragraph-ready {
+      max-width: 400px;
+      font-size: 18px;
+      line-height: 24px;
+      margin: 0 auto;
+    }
 
 
-      @media (max-width:600px){
-        #tite-feeling-ready{
-            margin-top: 400px;
-        }
+    @media (max-width:600px){
+      #tite-feeling-ready{
+          margin-top: 400px;
       }
-      @media (max-width:780x){
-        #tite-feeling-ready{
-            margin-top: 400px;
-        }
+    }
+    @media (max-width:780x){
+      #tite-feeling-ready{
+          margin-top: 400px;
       }
+    }
 
 #container-2{
-  height:100vh;
-  width: 450px;
+height:100vh;
+width: 450px;
 
 }
 
 #imagem-ready{
-  padding-top: 60px;
-  width: 400px;
-  float: right;
+padding-top: 60px;
+width: 400px;
+float: right;
 }
 #texto-box-2,
 #paragrafo-box-2{
-  margin-left: 10px;
+margin-left: 10px;
 }
 #texto-box-2{
-  margin-top: 50px;
+margin-top: 50px;
 }
-
-
+@media (max-width: 768px) {
+  #container-2 {
+    width: 90vw;
+    height: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+  }
+}
 #container-3{
-  align-self: center;
+align-self: center;
 }
 
 #img-2-travel{
-  float: right;
-  width: 80%;
+float: right;
+width: 80%;
 }
-@media (max-width: 780px) {
-    #time-travel-box {
-        height: 80%;
-    width: 100%;
-    }
-}
+@media (max-width: 768px) {
+  #time-travel-box {
+    width: 90vw;
+    height: 90vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 32px;
+  }
+ }
 #img-box-1{
-  padding-left: -20px;
+padding-left: -20px;
 }
 #imagem-threads{
-  box-sizing: border-box; 
+box-sizing: border-box; 
 }
 .title-top-text-allin{
-  font-family: 'GT Walsheim', sans-serif;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 64px;
-    margin-bottom: 16px;
-    margin-top: 150px;
-    text-align: center;
-    max-width: 100%;
-    box-sizing: border-box;
-    overflow-wrap: break-word;
+font-family: 'GT Walsheim', sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 16px;
+  margin-top: 150px;
+  text-align: center;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
 }
 @media (max-width: 780px) {
-    .title-top-text-allin {
-        margin-top: 400px;
-    }
-}
-@media (max-width: 600px) {
   .title-top-text-allin {
-    margin-top: 250%;
+      margin-top: 400px;
   }
 }
+@media (max-width: 600px) {
+.title-top-text-allin {
+  margin-top: 250%;
+}
+}
 .paragrafo-allin {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 18px;
-  line-height: 24px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-bottom: 30px;
+font-size: 18px;
+line-height: 24px;
 }
 @media (max-width: 780px) {
-    #all-in-calendar {
-        margin-top: 150%;
-    }
+  #all-in-calendar {
+      margin-top: 150%;
+  }
 }
 @media (max-width: 670px) {
-    #all-in-calendar {
-        margin-top: 210%;
-    }
+  #all-in-calendar {
+      margin-top: 150%;
+  }
 }
 @media (max-width: 440px) {
-    #all-in-calendar {
-        margin-top: 100%;
-    }
+  #all-in-calendar {
+      margin-top: 150%;
+  }
 }
 @media (max-width: 330px) {
-    #all-in-calendar {
-        margin-top: 100%;
-    }
+  #all-in-calendar {
+      margin-top: 150%;
+  }
+}
+@media (max-width: 270px) {
+  #all-in-calendar {
+      margin-top: 150%;
+  }
 }
 
+
 .destaque{
-  color:#7366fe;
-  cursor: default;
-  border: 1px solid #5c6ae433;
-  border-radius: 24px;
-  margin-bottom: 4px;
-  margin-left: 2px;
-  margin-right: 2px;
-  padding: 4px 12px;
-  font-size: 16px;
-  line-height: 24px;
-  display: inline-block;
+color:#7366fe;
+cursor: default;
+border: 1px solid #5c6ae433;
+border-radius: 24px;
+margin-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+padding: 4px 12px;
+font-size: 16px;
+line-height: 24px;
+display: inline-block;
 }
 .img-allin{
-  display: block;
-  margin: 0 auto;
-  height: 700px;
+display: block;
+margin: 0 auto;
+height: 700px;
 }  
 .icon-container{
-    cursor: pointer;
-    width: 64px;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    bottom: -32px;
-    left: 0;
-    right: 0;
+  cursor: pointer;
+  width: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: -32px;
+  left: 0;
+  right: 0;
 }
 
 .icon{
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
-     z-index: 2;
-    cursor: pointer;
-    position: relative;
+max-width: 100%;
+vertical-align: middle;
+display: inline-block;
+   z-index: 2;
+  cursor: pointer;
+  position: relative;
 }
 .letras-footer{
-  flex-wrap: wrap;
-    flex: 1;
-    align-items: center;
-    display: flex;
+flex-wrap: wrap;
+  flex: 1;
+  align-items: center;
+  display: flex;
 }
 .link-footer{
-  color: #8b8c96;
-  font-family: 'GT America Standard', sans-serif;
-    font-weight: 300;
-    text-decoration: none;
-    transition: color .2s ease-out;
+color: #8b8c96;
+font-family: 'GT America Standard', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  transition: color .2s ease-out;
 }
 
 @media (max-width: 780px) {
-    #get-ready-text {
-        margin-top:150px;
-    }
+  #get-ready-text {
+      margin-top:150px;
+  }
 }
-
