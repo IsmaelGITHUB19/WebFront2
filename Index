@@ -57,15 +57,7 @@
                   <h1 data-w-id="9b145820-d6e1-1d42-022c-d7850d44a9c8" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"class="heading">
                     you need to meet
                   </h1>
-                <!--  <div data-w-id="5c7d30d8-062a-50b6-63f1-08a40443c8e7" style="opacity: 1;" class="animated-cursor" >
-                      <div data-w-id="c46d6794-78bb-81d5-eb80-3b1c7be4da64" class="cursor-line">
-                        <div class="cursor-text">
-                          <div cursor-text-block>
-                            Febby
-                          </div>
-                        </div>
-                      </div>
-                  </div>-->
+                
              </div>
              <p data-w-id="dc456c53-cb51-ffcd-e154-7be19c46f03f" style="opacity: 1;" class="paragraph" >
               Ready evolves your calendar into a living, breathing multiplayer workspace for teams to instantly make your meetings better.
@@ -132,14 +124,14 @@
                 </div>                
           </div>
           <div class="box-2" style="background-image: url(https://ready.so/images/Meeting-Tools-BG-2.webp); border-radius: 50px; align-self: flex-end;" >
-              <h3 style="font-family: GT America Standard, sans-serif; font-weight: 500;" class="title-box-2" >
+              <h3 style="font-family: GT America Standard, sans-serif; font-weight: 500;" class="title-box-2" style="padding-top: 10px;" >
                  Smart Tasks
               </h3>
-              <p style="color: #fff; font-size: 16px; line-height: 24px;" class="paragrafo-box-2"> 
+              <p style="color: #fff; font-size: 16px; line-height: 24px;" class="paragrafo-box-2" style="margin-bottom: -70px;margin-top: 0;"> 
                 Jot down tasks and assign action items in <br> your meetings. Ready then automatically <br> organizes them for you and your team.
             </p>
-            <div class="image-container-2">
-                <img src="https://ready.so/images/Tasks.webp" style="padding-right: 10px; padding-left: 40px;" class="img-box-2">
+            <div class="image-container-2" style="margin-top: -70px;">
+                <img src="https://ready.so/images/Tasks.webp" style="padding-right: 10px; padding-left: 40px; max-width: 100% ;display: block;" class="img-box-2">
             </div>
           </div>
         </div>
@@ -173,20 +165,29 @@
          
         <div class="container" id="meeting-container">
           <div class="esquerda" style="width:300px;">
-            <div class="box" id="time-travel-box"  style="height: 50%; width: 90%; align-self: flex-end ;margin-top: 10%; background-image: url(https://ready.so/images/Leave-BG-1.webp);border-radius: 32px; " >
-                  <h3 style="font-family: GT America Standard, sans-serif; font-weight: 500; " class="title-box" >
-                             Time Travel
-                  </h3>
-                   <p style="color: #fff; font-size: 16px; line-height: 24px;" class="paragrafo-box"> 
-                    Ready connects your meetings together. Jump back in <br> time to see what was discussed or leap forward to get a <br> head start.
+          <div class="box" id="time-travel-box" style="height: 50%; width: 90%; align-self: flex-end; margin-top: 10%; background-image: url(https://ready.so/images/Leave-BG-1.webp); border-radius: 32px; display: flex; flex-direction: column; justify-content: space-between; padding: 20px;">
+  
+  <div>
+    <h3 style="font-family: GT America Standard, sans-serif; font-weight: 500;" class="title-box">
+      Time Travel
+    </h3>
+    <p style="color: #fff; font-size: 16px; line-height: 24px;" class="paragrafo-box"> 
+      Ready connects your meetings together. Jump back in <br>
+      time to see what was discussed or leap forward to get a <br>
+      head start.
+    </p>
+  </div>
 
-                  </p>
-                  <div class="image-container" id="img-2-travel" style="height: 200px; overflow: hidden; box-sizing: border-box; " >
-                    <img src="https://ready.so/images/Time-Travel.webp" style="border: 32px;" class="img-box-1" id="img-box-1">
-                  </div>                
-            </div>
+  <div class="image-container" id="img-2-travel" style="width: 100%; display: flex; justify-content: flex-end;">
+    <img src="https://ready.so/images/Time-Travel.webp"
+         style="width: auto; height: 120px; object-fit: contain; align-self: flex-end;" 
+         class="img-box-1" id="img-box-1">
+  </div>
+
+</div>
+
             <div class="box-2" id="container-2" style="background-image: url(https://ready.so/images/Leave-BG-3.webp);  border-radius: 32px; align-self: flex-end; overflow: hidden;" >
-                <h3 style="font-family: GT America Standard, sans-serif; font-weight: 500;" class="title-box-2"  id="texto-box-2">
+                <h3 style="font-family: GT America Standard, sans-serif; font-weight: 500;" class="title-box-2" >
                   Threads
                 </h3>
                 <p style="color: #fff; font-size: 16px; line-height: 24px;" class="paragrafo-box-2" id="paragrafo-box-2"> 
