@@ -150,10 +150,6 @@
         </div>
       </div>
       </div>
-     
-
-
-      
         <div style="margin-top:100px ;" class="feeling-ready">
           <div class="title-top-ready">
               <h1 class="title-top-text-allin" id="tite-feeling-ready" style="font-weight:bold;">Leave every meeting feeling Ready</h1>
@@ -166,7 +162,6 @@
         <div class="container" id="meeting-container">
           <div class="esquerda" style="width:300px;">
           <div class="box" id="time-travel-box" style="height: 50%; width: 90%; align-self: flex-end; margin-top: 10%; background-image: url(https://ready.so/images/Leave-BG-1.webp); border-radius: 32px; display: flex; flex-direction: column; justify-content: space-between; padding: 20px;">
-  
   <div>
     <h3 style="font-family: GT America Standard, sans-serif; font-weight: 500;" class="title-box">
       Time Travel
